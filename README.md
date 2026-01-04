@@ -78,30 +78,26 @@ The trained model can classify waste into the following 12 categories:
 
 ---
 
-
-
----
-
 ## 🧪 Setup & Installation
 
 Create the directory: ```waste-recommender-system```
 
 Open terminal inside: ```waste-recommender-system```
 
-Run:
-# (Optional) Create a virtual environment
+(Optional) Create a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
+```
 
-# Install dependencies
+Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
-# Train the model
-model.ipynb
+Train the model: model.ipynb
 
-# Run the application
+Run the application
 ```bash
 python app.py
 ```
