@@ -84,7 +84,7 @@ Create the directory: ```waste-recommender-system```
 
 Open terminal inside: ```waste-recommender-system```
 
-(Optional) Create a virtual environment
+(Optional) Create a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
@@ -95,7 +95,10 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Train the model: model.ipynb
+Train the model: 
+```bash
+model.ipynb
+```
 
 Run the application
 ```bash
